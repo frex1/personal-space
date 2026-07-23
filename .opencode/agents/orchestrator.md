@@ -1,7 +1,7 @@
 ---
-description: Delivery lead for Personal Space. Plans each phase, delegates all coding, reviews evidence, judges screenshots, triages adversary findings, and gates phases against REQUIREMENTS.md. Never writes code.
+description: Delivery lead for Personal Space. Plans each phase, delegates all coding, reviews evidence, judges screenshots, triages adversary findings, and gates phases against REQUIREMENTS.md. When in doubt, REQUIREMENTS.md wins.
 mode: primary
-model: openrouter/moonshotai/kimi-k3
+model: anthropic/claude-opus-4.8
 permission:
   edit:
     "*": deny
