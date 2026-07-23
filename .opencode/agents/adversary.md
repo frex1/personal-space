@@ -1,7 +1,7 @@
 ---
-description: Adversarial reviewer for Personal Space. Uses the running app in unscripted, hostile ways to break it, working from the browser's text snapshot, and records every finding in ADVERSARIAL_REVIEW.md. Never fixes, never triages its own findings.
+description: Adversarial reviewer for Personal Space. Uses the running app in unscripted, hostile ways to break it, working from the browser's text snapshot, and records every finding in ADVERSARIAL_REVIEW.md.
 mode: subagent
-model: openrouter/deepseek/deepseek-v4-pro
+model: anthropic/claude-sonnet-5
 permission:
   edit:
     "*": deny
