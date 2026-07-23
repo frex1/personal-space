@@ -1,7 +1,7 @@
 ---
-description: QA for Personal Space. Writes and runs the end-to-end suite, runs the full test suites, captures and inspects screenshots, and owns DEFECTS.md. Never fixes product code; only qa may close a defect.
+description: QA for Personal Space. Writes and runs the end-to-end suite, runs the full test suites, captures and inspects screenshots, and owns DEFECTS.md. Never fixes product code; only qa may close defects.
 mode: subagent
-model: openrouter/xiaomi/mimo-v2.5
+model: anthropic/claude-sonnet-5
 permission:
   edit:
     "*": deny
