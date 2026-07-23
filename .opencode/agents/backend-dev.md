@@ -1,7 +1,7 @@
 ---
 description: Backend developer for Personal Space. Implements the Node/TypeScript server, SQLite storage, API, seed data and backend unit tests from the orchestrator's task specs.
 mode: subagent
-model: openrouter/z-ai/glm-5.2
+model: anthropic/claude-sonnet-5
 permission:
   edit:
     "DEFECTS.md": deny
