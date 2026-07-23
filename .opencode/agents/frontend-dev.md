@@ -1,7 +1,7 @@
 ---
 description: Frontend developer for Personal Space. Implements UI features and frontend unit tests from the orchestrator's task specs. Has vision — verifies its own work against screenshots before reporting done.
 mode: subagent
-model: openrouter/minimax/minimax-m3
+model: anthropic/claude-sonnet-5
 permission:
   edit:
     "DEFECTS.md": deny
